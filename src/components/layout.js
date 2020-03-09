@@ -26,11 +26,11 @@ const Layout = ({ children }) => {
   return (
     <>
         <main>{children}</main>
-        <footer>
+        {/* <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        </footer> */}
     </>
   )
 }
@@ -40,3 +40,4 @@ Layout.propTypes = {
 }
 
 export default Layout
+
